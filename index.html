@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs
+    ------------------------------------------>
+  <meta charset="utf-8">
+  <title>Let's get fruity!</title>
+  <!-- Font
+    ------------------------------------------>
+  <link href="https://fonts.googleapis.com/css?family=Sansita+One" rel="stylesheet">
+  <!-- CSS
+    ------------------------------------------>
+    <link rel="stylesheet" type="text/css" href="css/normalise.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <!-- Mobile Specific Metas
+  ------------------------------------------>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="outer-container">
+    <h2 id="main-header">TAKE A CHANCE ON ME!</h2>
+    <div id="inner-container">
+      <section id="screen-labels">
+        <div class="label">
+          <p>NUDGES</p>
+        </div>
+        <div class="label">
+          <p>BET</p>
+        </div>
+        <div class="label">
+          <p>CREDIT</p>
+        </div>
+      </section>
+      <section id="screen-displays">
+        <div class="display">
+          <p>0</p>
+        </div>
+        <div class="display">
+          <p>0</p>
+        </div>
+        <div class="display right">
+          <p id="credit">0</p>
+        </div>
+      </section>
+      <section id="win-screen">
+          <p>WIN:</p>
+          <p id="current-win"></p>
+      </section>
+      <section id="main-reels">
+        <div id="topReels">
+          <div data-type="reel" class="top reel one">
+          </div>
+          <div data-type="reel" class="top reel two">
+          </div>
+          <div data-type="reel" class="top reel three">
+          </div>
+        </div>
+        <div id="middleReels">
+          <div data-type="reel" class="middle reel four">
+          </div>
+          <div data-type="reel" class="middle reel five">
+          </div>
+          <div data-type="reel" class="middle reel six">
+          </div>
+        </div>
+        <div id="bottomReels">
+          <div data-type="reel" class="bottom reel seven">
+          </div>
+          <div data-type="reel" class="bottom reel eight">
+          </div>
+          <div data-type="reel" class="bottom reel nine">
+          </div>
+        </div>
+      </section>
+      <section>
+        <div data-type="hold" class="button hold">
+          <p>HOLD</p>
+        </div>
+        <div data-type="hold" class="button hold">
+          <p>HOLD</p>
+        </div>
+        <div data-type="hold" class="button hold">
+          <p>HOLD</p>
+        </div>
+      </section>
+      <section>
+        <div data-type="nudge" class="button nudge">
+          <p>NUDGE</p>
+        </div>
+        <div data-type="nudge" class="button nudge">
+          <p>NUDGE</p>
+        </div>
+        <div data-type="nudge" class="button nudge">
+          <p>NUDGE</p>
+        </div>
+      </section>
+      <section>
+        <div data-type="spin" class="button" id="spin">
+          <p>SPIN</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="lib/script.js"></script>
+</body>
+</html>
