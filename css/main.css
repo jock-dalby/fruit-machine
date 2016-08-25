@@ -218,7 +218,7 @@ body {
 }
 
 footer{
-  height: viewport - 670px;;
+  height: 290px;
   border-top: 5px solid black;
   background: gold;
 }
