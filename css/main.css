@@ -19,7 +19,7 @@ body {
 }
 
 .side-signs {
-  height: 400px;
+  height: 420px;
   width: 200px;
   background: beige;
   border: 3px solid black;
@@ -28,9 +28,13 @@ body {
   margin-top: 100px;
 }
 
+.side-signs h2,
+.side-signs p {
+  text-align: center;
+}
+
 .side-signs h2 {
   font-size: 26px;
-  text-align: center;
   text-decoration: underline;
   margin: 10px auto;
 }
@@ -133,6 +137,7 @@ body {
   font-size: 26px;
   padding-top: 4px;
   height: 100%;
+  font-family: 'Sansita One', cursive;
 }
 
 
